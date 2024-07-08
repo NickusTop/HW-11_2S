@@ -1,0 +1,189 @@
+.button {
+  padding: 8px;
+  border: none;
+  border-radius: 4px;
+  font-size: 15px;
+  font-weight: 600;
+  font-family:$text-font2;
+  transition: color $bg;
+  background-color: $bg;
+  box-shadow: $bg;
+  }
+  .button:hover {
+    color: $white-color;
+    background-color: $blue-color;
+    cursor: pointer;
+  }
+  .button:first-child {
+    width: 65px;
+    color: $white-color;
+    background-color: $blue-color;
+  }
+  .menu {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-post {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 200px;
+    margin-left: 225px;
+    margin-right: 225px;
+  }
+  .container-post-b {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-left: 225px;
+    margin-right: 225px;
+  }
+  .container-post-bf {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 25px;
+    margin-left: 225px;
+    margin-right: 225px;
+    margin-bottom: 50px;
+    z-index: 100;
+    background-color: $white-color;
+  }
+  .post-menu {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  border: 1px solid $card-team;
+  width: 285px;
+  height: 315px;
+  z-index: 2300;
+  transition: box-shadow $bg;
+  overflow: hidden;
+  }
+  .post-menu:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px $black;
+  }
+  .post-menu1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  border: 1px solid $card-team;
+  width: 285px;
+  height: 315px;
+  z-index: 2300;
+  transition: box-shadow $bg;
+  overflow: hidden;
+  }
+  .post-menu1:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px $black;
+  }
+  .post-menu2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  border: 1px solid $card-team;
+  width: 285px;
+  height: 315px;
+  z-index: 2300;
+  transition: box-shadow $bg;
+  overflow: hidden;
+  }
+  .post-menu2:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px $black;
+  }
+  .post-img {
+    position: relative;
+    display: flex;
+    width: 285px;
+    height: 220px;
+    z-index: -1;
+   }
+  .info-card {
+    background-color: $white-color;
+    z-index: 10;
+    height: 125px;
+  }
+  .p-post {
+  font-family:$text-font2;
+  font-weight: 700;
+  margin-left: 15px;
+  margin-top: 20px;
+  }
+  .p-menu {
+  font-family:$text-font2;
+  color: $gray-color;
+  font-size: 15px;
+  margin-left: 15px;
+  margin-top: 12px;
+  }
+  ​.post-menu-active:hover {
+    cursor: pointer;
+    box-shadow: 0 0 5px $black;
+  }
+  
+  .post-menu:hover .aerodrom {
+    bottom: 30%;
+    opacity: 1;
+  }
+  .post-menu:nth-child(2):hover .aerodrom1 {
+    bottom: 30%;
+    opacity: 1;
+  }
+  .post-menu:last-child:hover .aerodrom2 {
+    bottom: 30%;
+    opacity: 1;
+  }
+  .post-menu1:hover .aerodrom3 {
+    bottom: 30%;
+    opacity: 1;
+  }
+  .post-menu1:nth-child(2):hover .aerodrom4 {
+    bottom: 30%;
+    opacity: 1;
+  }
+  .post-menu1:last-child:hover .aerodrom5 {
+    bottom: 30%;
+    opacity: 1;
+  }
+  .post-menu2:hover .aerodrom6 {
+    bottom: 30%;
+    opacity: 1;
+  }
+  .post-menu2:nth-child(2):hover .aerodrom7 {
+    bottom: 30%;
+    opacity: 1;
+  }
+  .post-menu2:last-child:hover .aerodrom8 {
+    bottom: 30%;
+    opacity: 1;
+  }
+  .overlay-text {
+    padding: 36px 24px;
+    font-family:$text-font2;
+    color: $white-color;
+  }
+  .aerodrom {
+    background-color: $blue-color2;
+    position: absolute;
+    width: 285px;
+    height: 225px;
+    bottom: -100%;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+    transition: bottom 0.5s ease;
+  }
+  .aerodrom1, .aerodrom2, .aerodrom3, .aerodrom4, .aerodrom5, .aerodrom6, .aerodrom7, .aerodrom8 {
+    background-color: $blue-color2;
+    position: absolute;
+    width: 285px;
+    height: 225px;
+    bottom: -100%;
+    opacity: 1;
+    transition: opacity 0.5s ease-in-out;
+    transition: bottom 0.5s ease;
+  }
